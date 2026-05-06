@@ -25,6 +25,37 @@ This project is a basic Android application built using **Jetpack Compose**. It 
 3. Let Gradle sync and build the project.
 4. Run the app on an **Emulator** or a **Physical Device**.
 
+## 🛠️ GitHub Workflow
+Follow these steps to contribute or update the project:
+
+### 1. Work on a New Feature
+Always create a new branch for your changes:
+```bash
+git checkout -b feature/your-feature-name
+```
+
+### 2. Commit and Push
+```bash
+git add .
+git commit -m "Description of changes"
+git push origin feature/your-feature-name
+```
+
+### 3. Open a Pull Request (PR)
+1. Go to your repo on GitHub.
+2. Click **Compare & pull request**.
+3. Describe your changes and click **Create pull request**.
+4. The **Android CI** will automatically check if your code builds.
+
+### 4. Code Review & Merge
+1. Review the changes in the "Files changed" tab.
+2. Once approved and the build passes, click **Merge pull request**.
+3. Back on your local machine, switch to main and pull:
+   ```bash
+   git checkout main
+   git pull origin main
+   ```
+
 ## 📸 Screenshots
 *(Add your screenshots here later)*
 
